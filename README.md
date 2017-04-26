@@ -1,8 +1,5 @@
-# Seeking New Maintainers
-
-As I have commitments that don't allow me to progress this module I'm actively seeking contributors to this repo to maintain it. 
-
-Please let me know if you're interested.
+# private fork for own staff
+just my own fork here.
 
 # homebridge-http
 
@@ -26,22 +23,22 @@ Configuration sample:
 
  ```
 "accessories": [ 
-	{
-		"accessory": "Http",
-		"name": "Alfresco Lamp",
-		"switchHandling": "realtime",
-		"http_method": "GET",
-		"on_url":      "http://localhost/controller/1700/ON",
-		"off_url":     "http://localhost/controller/1700/OFF",
-		"status_url":  "http://localhost/status/100059",
-		"service": "Light",
-		"brightnessHandling": "yes",
-		"brightness_url":     "http://localhost/controller/1707/%b",
-		"brightnesslvl_url":  "http://localhost/status/100054",
-		"sendimmediately": "",
-		"username" : "",
-		"password" : ""					    
-       } 
+    {
+        "accessory": "Http",
+        "name": "Alfresco Lamp",
+        "switchHandling": "realtime",
+        "http_method": "GET",
+        "on_url":      "http://localhost/controller/1700/ON",
+        "off_url":     "http://localhost/controller/1700/OFF",
+        "status_url":  "http://localhost/status/100059",
+        "service": "Light",
+        "brightnessHandling": "yes",
+        "brightness_url":     "http://localhost/controller/1707/%b",
+        "brightnesslvl_url":  "http://localhost/status/100054",
+        "sendimmediately": "",
+        "username" : "",
+        "password" : ""
+       }
     ]
 ```
 
